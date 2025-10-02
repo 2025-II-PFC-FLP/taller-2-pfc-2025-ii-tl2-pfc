@@ -1,4 +1,5 @@
 package taller
+import annotation.tailrec
 
 class Conjuntosdifusos {
   type ConjuntoDifuso = Int => Double
@@ -48,6 +49,32 @@ class Conjuntosdifusos {
       math.min(cd1(x),cd2(x))
     }
     definein
+  }
+
+
+
+  def inclusion(cd1: ConjuntoDifuso, cd2: ConjuntoDifuso): Boolean = {
+    @tailrec
+    def definirIn(numero: Int): Boolean = {
+      if(numero > 1000){
+        true
+      }
+      else if(cd1(numero)>cd2(numero)){
+        false
+      }
+      else{
+        definirIn(numero+1)
+      }
+    }
+
+    definirIn(0)
+  }
+
+
+
+  def igualdad(cd1: ConjuntoDifuso, cd2: ConjuntoDifuso): Boolean = {
+    if(inclusion(cd1, cd2) && inclusion(cd2,cd1))true
+    else false
   }
 
 
