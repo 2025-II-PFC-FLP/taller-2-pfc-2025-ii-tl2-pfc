@@ -1,18 +1,17 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/lEw1Qm1j)
 # Asignación: [Nombre de la asignación]
 
-**Fecha:** [DD/MM/AAAA]
-**Curso:** [Nombre del Curso]
+**Fecha:** [23/09/2025]
+**Curso:** Fundamentos de programacion funcional y concurrente
 
 ---
 
 ## 👥 Integrantes del Grupo
 
-| Nombre Completo | Código | Rol            | Correo Electrónico        |
-| --------------- | ------ | -------------- | ------------------------- |
-| [Estudiante 1]  | 123456 | [Líder/Colab.] | [correo1@institucion.edu] |
-| [Estudiante 2]  | 123457 | [Colaborador]  | [correo2@institucion.edu] |
-| [Estudiante 3]  | 123458 | [Colaborador]  | [correo3@institucion.edu] |
+|      Nombre Completo    |  Código | Rol   |           Correo Electrónico             |
+| ----------------------- | ------- | ------| ---------------------------------------- |
+| Sebastian Garcia Cardona| 2459672 | Líder | sebastian.garcia.cardona@univalle.edu.co |
+
 
 ---
 
