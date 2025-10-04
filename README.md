@@ -10,7 +10,7 @@
 
 |      Nombre Completo    |  Código | Rol   |           Correo Electrónico             |
 | ----------------------- | ------- | ------| ---------------------------------------- |
-| Sebastian Garcia Cardona| 2459672 | Líder | sebastian.garcia.cardona@univalle.edu.co |
+| Sebastian Garcia Cardona| 2459672 | Líder | sebastian.garcia.cardona@correounivalle.edu.co |
 
 
 ---
