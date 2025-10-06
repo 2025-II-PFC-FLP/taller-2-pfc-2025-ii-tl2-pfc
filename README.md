@@ -1,5 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/lEw1Qm1j)
-# Asignación: [Nombre de la asignación]
+# Asignación: Funciones de alto orden
 
 **Fecha:** [23/09/2025]
 **Curso:** Fundamentos de programacion funcional y concurrente
@@ -18,4 +18,4 @@
 ## 📌 Descripción de la Asignación
 
 [Breve párrafo explicando el propósito y objetivos del taller (4-6 líneas). Ejemplo:]
-_"Este taller busca analizar [tema principal] mediante [metodología]. Los objetivos incluyen [objetivo 1], [objetivo 2] y [objetivo 3], aplicando conceptos vistos en clase como [concepto relevante]."_
+_"Este taller busca analizar los conjuntos difusos mediante funciones de alto orden. Los objetivos incluyen crear una funcion que devuelva el conjunto difuso de un numero en funcion de su tamaño (conjunto difuso de numeros grandes), crear una funcion que devuelve el complemento de un conjunto difuso, crear dos funciones que devuelven la union y la interseccion de dos conjuntos difusos, crear una funcion que evalua si un conjunto esta incluido en otro usando recursion de cola y otra funcion que verifique si dos conjuntos difusos son iguales."_
