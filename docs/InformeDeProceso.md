@@ -67,20 +67,7 @@ def union(cd1: ConjuntoDifuso, cd2: ConjuntoDifuso): ConjuntoDifuso = {
 - En la funcion union se reciben dos conjuntos difusos, cd1 y cd2, y en la funcion interna defineu se evalua la union, calculando
   en ambos conjuntos el mismo numero y con math.max se determina el grado de pertenencia mayor
 
-### Ejemplo funcion union
-- Primero se ingresan dos conjuntos difusos a la funcion
-```Scala
-val conjunto1 = grande(10,2)
-val conjunto2 = grande(5,2)
-val calcularU = union(conjunto1,conjunto2)
-```
-- Luego se ingresa el numero que se va a evaluar
-```Scala
-calcularU(1000)
-```
-- El porcentaje de pertenencia de 1000 en conjunto1 es de 0.98(aproximado) y en conjunto2 es de 0.99(aproximado), entonces la union de ambos conjuntos es 0.99
-
-  ## Funcion interseccion
+## Funcion interseccion
 ```Scala
 def interseccion(cd1: ConjuntoDifuso, cd2: ConjuntoDifuso): ConjuntoDifuso = {
     def definein(x: Int): Double = {
@@ -93,11 +80,10 @@ def interseccion(cd1: ConjuntoDifuso, cd2: ConjuntoDifuso): ConjuntoDifuso = {
 - La funcion interseccion recibe dos conjuntos difusos, cd1 y cd2, y en la funcion interna definein se evalua un numero x en ambos conjuntos
   y devuelve el conjunto con menor porcentaje de pertenencia
 
-  ## Funcion inclusion
+## Funcion inclusion
 
 ```Scala
 def inclusion(cd1: ConjuntoDifuso, cd2: ConjuntoDifuso): Boolean = {
-  
   @tailrec
   def definirIn(numero: Int): Boolean = {
     if (numero > 1000) {
@@ -111,7 +97,7 @@ def inclusion(cd1: ConjuntoDifuso, cd2: ConjuntoDifuso): Boolean = {
     }
     definirIn()
   }
-
+  
   definirIn(0)
 }
 ```
