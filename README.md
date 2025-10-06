@@ -16,6 +16,4 @@
 ---
 
 ## 📌 Descripción de la Asignación
-
-[Breve párrafo explicando el propósito y objetivos del taller (4-6 líneas). Ejemplo:]
 _"Este taller busca analizar los conjuntos difusos mediante funciones de alto orden. Los objetivos incluyen crear una funcion que devuelva el conjunto difuso de un numero en funcion de su tamaño (conjunto difuso de numeros grandes), crear una funcion que devuelve el complemento de un conjunto difuso, crear dos funciones que devuelven la union y la interseccion de dos conjuntos difusos, crear una funcion que evalua si un conjunto esta incluido en otro usando recursion de cola y otra funcion que verifique si dos conjuntos difusos son iguales."_
